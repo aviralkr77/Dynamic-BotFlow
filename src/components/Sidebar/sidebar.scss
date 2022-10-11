@@ -1,0 +1,28 @@
+.sidebar{
+    .icon{
+        svg {
+            vertical-align: middle;
+            width: 10rem;
+            padding: 0;
+            height: 03rem;
+        }
+    
+    }
+    .head-div{
+        .smallIcon {
+            svg{
+                margin-top:1rem
+
+            }
+           }
+    }
+   .toggled{
+        .smallIcon {
+            svg{
+                display:block;
+            }
+           }
+    }
+  
+  
+}

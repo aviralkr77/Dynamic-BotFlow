@@ -1,0 +1,44 @@
+.inputNode{
+  
+    .btn-secondary {
+        box-shadow: #00000041 0px 4px 8px ;
+        border-radius: 10rem;
+        font-size: small;
+        padding:.5rem 1rem 0.5rem 1rem;
+        background-color:#484848 ;
+        color: white;
+        border-color: #484848;
+        font-weight: 700;
+
+    }
+    .addNode{
+        padding:0;
+        position: absolute;
+        right: -1.4rem;
+        top:.2rem;
+        color: #484848;
+    }
+    .editBtn{
+        box-shadow: #00000041 0px 4px 8px ;
+        position: absolute;
+        right:2.2rem;
+        color: #484848;
+        bottom:-2.8rem;
+        font-size: small;
+        font-weight: 600;
+        
+    }
+    .resTitle{
+        position: absolute;
+        top:-1.8rem;
+        left: -1rem;
+        font-size: small;
+        background-color: transparent;
+        backdrop-filter: blur(1px);
+        border: none;
+        color: #484848;
+        
+        text-align: center;
+        font-weight: 600;
+    }
+}

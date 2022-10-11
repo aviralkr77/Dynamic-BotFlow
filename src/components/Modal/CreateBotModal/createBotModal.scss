@@ -1,0 +1,61 @@
+.createBotModal{
+    top: 14rem;
+    left: 5rem;
+    background-color: transparent;
+    
+    .form-control{
+        border: 1px solid #867BC2 ;
+    }
+    .modal-content{
+        border: 1px solid #867BC2 ;
+        box-shadow: #0000004c 0px 8px 18px 18px ;
+        width: 25rem;
+    }
+    .modal-header{
+        color: white;
+        box-shadow: #000000bb 0px 4px 8px ;
+        background-color: #867BC2;
+       
+       
+        .btn{
+            svg{
+                color: white;
+            }
+            
+        }
+    }
+    .modal-body{
+        font-size: medium;
+        border-bottom:0px ;
+        color: rgb(0, 0, 0);
+        background-color: white;
+    }
+    .modal-footer{
+        padding-top: 4px;
+        
+        border-top:0px ;
+        color: white;
+    }
+    .btn{
+        font-size: small;
+    }
+    .btn-primary{
+
+        background-color: #c8beff;
+        border-color: #000000;
+        color: #000000;
+
+    }
+    .btn-primary:active{
+        border-color: #C02E31;
+        
+    }
+    .btn-secondary{
+        color: #000000;
+        background-color: white;
+    }
+    .btn-secondary:hover{
+        color: #ffffff;
+        background-color: #726c96;
+    }
+}

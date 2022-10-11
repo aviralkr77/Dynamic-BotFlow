@@ -1,0 +1,59 @@
+{
+  "name": "Chatbot-Flow",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.1.3",
+    "cdbreact": "^1.5.1",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.3",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.2.3",
+    "react-dom": "^17.0.2",
+    "react-flow-renderer": "^10.1.2",
+    "react-icons": "^4.3.1",
+    "react-remark": "^2.1.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.0",
+    "react-transition-group": "^4.4.2",
+    "sass": "^1.50.1",
+    "utils-extend": "^1.0.8",
+    "uuid": "^8.3.2",
+    "web-vitals": "^2.1.3"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0"
+  }
+}

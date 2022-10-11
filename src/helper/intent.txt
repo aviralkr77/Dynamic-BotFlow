@@ -1,0 +1,189 @@
+## intent:greet
+- hey
+- hi
+- Hello
+- good morning
+- good evening
+- hey there
+- hey buddy
+- How are you
+- How are you doing
+- What's up?
+- Good Morning
+- Good Afternoon
+- Good Evening
+- say anything
+- are you busy
+- are you human
+- are you robot
+- what is your name
+
+## intent:Request For Trial Version
+- Request For Trial Version
+- Trial Version
+- Trial
+
+## intent:Sales Team
+- Sales Team
+- Sales
+- sales
+- sales Team
+
+
+## intent:Live Demo
+- Live Demo
+- Demo
+
+## intent:Request For Pricing
+- Request For Pricing
+- Pricing
+
+## intent:Refered by colleague
+- Refered by Colleague
+- refered by colleague
+- refered by Colleague
+
+## intent:StartDRPChatBot
+- StartDRPChatBot
+- strtdrpchatbot
+- STARTDRPCHATBOT
+- startdrpchatbot
+- STARTchatbot
+
+## intent:waste
+- Do you have a boyfriend/girlfriend?
+- Do you know other chatbots?
+- Do you want to rule the world?
+- Happy birthday! , Do you know a joke?
+- You’re funny!
+- Do you love me? / I love you
+- Will you marry me?
+- Are you single?
+- Does Santa Claus exist?
+- Are you part of the Matrix?
+- You’re cute
+- Do you have a hobby?
+- You’re smart
+- you're clever
+- you're intelligent
+- you're beautiful
+- you're handsome
+- Tell me about your personality
+- You’re annoying
+- you’re boring
+- you're bad
+- you're crazy
+- How old are you?
+- What’s your age?
+- What day is it today?
+- What is date today?
+- What do you do with my data?
+- Do you save what I say?
+- Who made you?
+- What is your mother’s name?
+- What is your father’s name?
+- How many people can you speak to at once?
+- Where do you live?
+- What is the weather like today?
+- Are you expensive?
+- Who’s your boss?
+- Who’s your master?
+- Do you get smarter?
+- You suck
+- I hate you
+- Go away
+- Are you upset?
+- That’s not right.
+- That’s not true.
+- That was stupid.
+- You are terrible.
+- Go to hell
+- Book me a cab?
+- book movie ticket
+- nonononon
+- nnnnnnnnn
+- intial
+
+
+
+## intent:About Digital Resume Parser
+- About Digital Resume Parser
+- Digital Resume Parser
+- Resume Parser
+- Parser
+
+## intent:Other Information
+- Other Information
+- Information
+
+
+## intent:Responding
+- Thank you
+- Thanks
+- okay
+
+## intent:Exit
+- Exit
+- EXIT
+- exit
+
+
+## intent:Main Menu
+- Main Menu
+- MAIN MENU
+- main menu
+
+
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+
+
+
+## intent:Yes
+- yes
+- YES
+- Yes
+- yES
+- YES
+- Yes
+
+
+## intent:No
+- no
+- NO
+- No
+- nO
+
+
+
+## intent:Language
+- Language you speak
+- Language you train
+- Language you know
+- Language
+- language
+- language you know
+- language you train
+
+## intent:Futher
+- I want to speak to human
+- I want to speak to Live agent
+- I want to speak to customer service
+- I want the answer now
+- That was not the right answer
+- Live Agent
+- Customer service
+- human
+- right answer
+
+## intent:praising
+- You are a genius!
+- you are great
+- you are intelligent
+- you are special
+- you are right
+- Yup that's true

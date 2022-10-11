@@ -1,0 +1,185 @@
+.responseModal{
+    font-family:Arial, Helvetica, sans-serif;
+    top: 4rem;
+    height: 80%;
+    background-color: transparent;
+    z-index: 8;
+    
+    .modal-content{
+        box-shadow: #0000004c 0px 0px 4px 2px ;
+        border: 1px solid #362698;
+        .border{
+            border: .5px solid #3526985f!important
+        }
+        ::-webkit-scrollbar{
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+        }
+    }
+    .modal-header{
+        color:  #362598;
+        box-shadow: #000000bb 0px 4px 8px ;
+        border-bottom: 1px solid #362698;
+        font-weight: 200!important;
+        background-color: #b7abfe94;
+        .btn{
+            svg{
+                color: white;
+            }
+            
+        }
+    }
+    .form-control{
+        border: 1px solid #362698;
+    }
+    .input-group>.form-control, .input-group>.form-select {
+        position: relative;
+        width: 50%;
+        margin-left:1rem;
+        min-width: 0;
+    }
+    .modal-body{
+        font-weight: 600;
+        font-size: .80rem;
+        border-bottom:0px ;
+        color: rgb(0, 0, 0);
+        background-color: #ffffff;
+        .btn-outline-dark{
+            margin-right: 1rem;
+            color: #362598;
+            border-color: #362598;
+            background-color: #b7abfe94;
+            font-weight: 600;
+            font-size: .75rem;
+        }
+        .btn-outline-danger{
+            margin-right: 1rem;
+            font-weight: 600;
+            font-size: .85rem;
+        }
+        .btn-outline-dark:hover{
+            color: white;
+            border-color: #362598;
+            background-color: #362598;
+            box-shadow: #362598;
+        }
+        .btn-dark{
+            color: white;
+            border-color: #362598;
+            background-color: #362598;
+        }
+        .dropdown-menu {
+            font-size: .85rem;
+        border: 1px solid #362598;
+        background-color: #dcd6fdf5;
+        }
+    }
+    .modal-footer{
+        padding-top: 0px;
+        border-top:0px ;
+        color: white;
+        background-color: #ffffff88;
+    }
+    .btn{
+        font-weight: 600;
+        font-size: .85rem;
+    }
+    .btn-primary{
+        background-color: #C02E31;
+        border-color: #C02E31;
+
+    }
+    .btn-primary:active{
+        border-color: #C02E31;
+        
+    }
+}
+.questionModal{
+  
+
+    background-color: transparent;
+    top: 4rem;
+    height: 80%;
+    .form-control{
+        border: 1px solid #C02E31;
+    }
+    .modal-content{
+        box-shadow: #0000004c 0px 0px 4px 2px ;
+        border: 1px solid #C02E31;
+        .border{
+            border: .5px solid #fdbcbd!important
+        }
+    }
+    .btn{
+        font-size: .9rem;
+    }
+    .modal-header{
+        color: white;
+        box-shadow: #000000bb 0px 4px 8px ;
+        background-color: #BF1D2B;
+       
+        .btn{
+            svg{
+                color: white;
+            }
+            
+        }
+    }
+    .input-group>.form-control, .input-group>.form-select {
+        position: relative;
+        width: 50%;
+        margin-left:1rem;
+        min-width: 0;
+        
+    }
+    .modal-body{
+        
+        border-bottom:0px ;
+        color: rgb(0, 0, 0);
+        background-color: #ffffff;
+        
+        .btn-outline-dark{
+            margin-right: 1rem;
+            color: #362598;
+            border-color: #362598;
+            background-color: #b7abfe94;
+            font-weight: 600;
+            font-size: .85rem;
+        }
+        .btn-outline-danger{
+            margin-right: 1rem;
+            font-weight: 600;
+            font-size: .85rem;
+        }
+        .btn-outline-dark:hover{
+            color: white;
+            border-color: #362598;
+            background-color: #362598;
+            box-shadow: #362598;
+        }
+        .btn-dark{
+            color: white;
+            border-color: #362598;
+            background-color: #362598;
+        }
+    }
+    .modal-footer{
+        padding-top: 0px;
+        
+        border-top:0px ;
+        color: white;
+        background-color: #ffffff88;
+    }
+    
+    .btn-primary{
+        
+        background-color: #C02E31;
+        border-color: #C02E31;
+
+    }
+    .btn-primary:active{
+        border-color: #C02E31;
+        
+    }
+    
+   
+}

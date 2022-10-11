@@ -1,0 +1,41 @@
+.staticNode{
+    .btn-secondary{
+        box-shadow: #00000041 4px 4px 8px ;
+        border-radius: 10rem;
+        font-size: small;
+        padding:.5rem 1.5rem 0.5rem 1.5rem;
+        background-color: #464357;
+        min-width: 8rem;
+    }
+    .addNode{
+        padding:0;
+        position: absolute;
+        right: -1.4rem;
+        top:.2rem;
+        color: #484848;
+    }
+    .editBtn{
+        box-shadow: #00000041 0px 4px 8px ;
+        position: absolute;
+        padding: 2px;
+        right: 1.4rem;
+        color: #372598;
+        bottom:-1.8rem;
+        font-size: small;
+        font-size: .7rem;
+        font-weight: 600;
+       
+        
+    }
+    .resTitle{
+        position: absolute;
+        top:-1.8rem;
+        left: -1rem;
+        font-size: small;
+        background-color: transparent;
+        border: none;
+        color: #484848;
+        text-align: center;
+        font-weight: 600;
+    }
+}

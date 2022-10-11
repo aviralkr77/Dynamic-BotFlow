@@ -1,0 +1,85 @@
+.container{
+    background-position: bottom;
+    background-position-y: top;
+    color: #E2E7ED;
+    position: absolute;
+    height: 100vh;
+    min-width: 100%;
+    top:0;
+    padding: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    
+    h3{
+        position: absolute;
+        top: 2.4rem;
+        left: 8rem;
+        color: white;
+        background-color:#372598;
+        padding: .5rem 1.5rem .5rem 1.5rem;
+        font-size: medium;
+        font-weight: 500;
+        border-radius:25rem;
+        box-shadow: rgba(1, 0, 0, 0.172) 0px 2px 8px 2px;
+    }
+   
+    .card {
+        box-shadow: rgba(1, 0, 0, 0.172) 0px 2px 8px 2px;
+        width: 22rem;
+        position: absolute!important;
+        left: 72vw!important;
+        margin-right: 4rem;
+        top: 2rem;
+        z-index: 8;
+        .card-body {
+            flex: 1 1 auto;
+            padding: .4rem .2rem;
+            cursor: grab;
+        }
+        .btn-danger{
+           
+            color: #E2E7ED!important;
+            font-weight: 800;
+           
+        }
+        .filled{
+           
+            background-color: #372598;
+            color: #E2E7ED;
+            
+        }
+        .btn{
+
+            svg{
+                height: max-content;
+                margin: 0rem;
+                padding: 0rem;
+            }
+            font-size: .8rem;
+        }
+    }
+    
+}
+
+.flow_container{
+    position: relative;
+   
+    margin: 12rem 0rem 6rem 2rem;
+    width: 100%;
+    height: 20rem;
+    padding: 9rem 4rem;
+    
+    .btn-secondary{
+        border-radius: 10rem;
+        border: 1px solid grey;
+        padding: .5rem 2rem;
+        font-size:small;
+        font-weight: 600; 
+        svg{
+           
+            width: 1.2rem;
+            height:1.5rem
+        }
+        
+    }
+}
