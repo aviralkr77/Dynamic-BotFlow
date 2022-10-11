@@ -7,6 +7,11 @@ Stack
 - React
 - Rasa 
 
+Start Commands
+1 : "npm i" //to install all the node packages and dependecies
+2 : "npm start" //to start the application , a web page will open on port 3000 or 3001[ if 3000 is pre occupied ]
+
+
 ## Add your files
 
 - [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
