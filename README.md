@@ -7,9 +7,9 @@ Stack
 - React
 - Rasa 
 
-Start Commands
-1 : "npm i" //to install all the node packages and dependecies
-2 : "npm start" //to start the application , a web page will open on port 3000 or 3001[ if 3000 is pre occupied ]
+#Start Commands
+- "npm i" //to install all the node packages and dependecies
+- "npm start" //to start the application , a web page will open on port 3000 or 3001[ if 3000 is pre occupied ]
 
 
 ## Add your files
