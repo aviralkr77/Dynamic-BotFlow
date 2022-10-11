@@ -1,5 +1,5 @@
-# DRP_Chatbot UI [React]
-
+# Chatbot-Flow [React]
+  - Create a cuatom Intent flow for your chatbot
 
 
 ## Getting started
