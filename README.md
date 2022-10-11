@@ -1,5 +1,5 @@
 # Chatbot-Flow [React]
-  - Create a cuatom Intent flow for your chatbot
+  - Create a custom Intent flow for your chatbot
 
 
 ## Getting started
