@@ -1,15 +1,20 @@
-# Chatbot-Flow [React]
-  - Create a custom Intent flow for your chatbot
+# Dynamic-BotFlow 
 
+##### Getting started
 
-## Getting started
-Stack
+## Stack
 - React
 - Rasa 
-
-#Start Commands
-- "npm i" //to install all the node packages and dependecies
-- "npm start" //to start the application , a web page will open on port 3000 or 3001[ if 3000 is pre occupied ]
+```
+USAGE- 
+ADD a story from ALL stories section 
+- "Create a Bot"- Add title and Description
+- Click on Start and Enter the details/Intent in the node and Save changes before closing
+- Drag and add new node from " + " button 
+- Connect the Edges by dragging edge from the end of a node
+- After finishing the flow creation , Click on "SAVE "
+- Click "Publish " to Send/store flow Data   
+```
 
 
 ## Add your files
@@ -19,7 +24,7 @@ Stack
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/aviral.kumar/drp_bot.git
+git remote add origin https://github.com/aviralkr77/Dynamic-BotFlow.git
 git branch -M main
 git push -uf origin main
 ```
