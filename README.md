@@ -7,7 +7,7 @@
 - Rasa 
 ```
 USAGE- 
-ADD a story from ALL stories section 
+- ADD a story from ALL stories section 
 - "Create a Bot"- Add title and Description
 - Click on Start and Enter the details/Intent in the node and Save changes before closing
 - Drag and add new node from " + " button 
