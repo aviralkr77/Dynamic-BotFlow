@@ -9,19 +9,19 @@ import {
   CDBSidebarMenuItem,
 } from 'cdbreact';
 import { NavLink } from 'react-router-dom';
-import { IoTriangleSharp } from 'react-icons/io5';
+import { IoBoatOutline } from 'react-icons/io5';
 // import {ReactComponent as Logo} from './logo.png';
 import './sidebar.scss'
 
 const Sidebar = () => {
     return (
       <div className='sidebar' style={{ height: '100vh', overflow: 'scroll initial' }}>
-        <CDBSidebar  textColor="#fff" backgroundColor="#372598;">
-        <CDBSidebarHeader   style={{color:"#BF1D2B", backgroundColor:"white" , borderRight:"1px solid #372598"
-              }} prefix={<i className="smallIcon fa fa-lg" ><IoTriangleSharp/></i>}>
-            <a  href="/" className="icon  text-decoration-none" style={{ color: 'BLUE',}}>
+        <CDBSidebar  textColor="black" backgroundColor="#e67300;">
+        <CDBSidebarHeader   style={{color:"white", backgroundColor:"black" , borderRight:"1px solid #372598"
+              }} prefix={<i className="smallIcon fa fa-lg" ><IoBoatOutline/></i>}>
+            <a  href="/" className="icon  text-decoration-none" style={{ color: 'white',}}>
             {/* <Logo /> */}
-            LOGO
+            DYNAMIC-FLOW
             </a>
           </CDBSidebarHeader>
         

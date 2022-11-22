@@ -6,7 +6,7 @@ const SideNav = () => {
   return (
     <div className="position-absolute   py-4">
       <Nav defaultActiveKey="/stories" className="flex-column ">
-        <h4>BOT Stories</h4>
+        <h4>CREATE</h4>
         
         <Nav.Link className="sub_header" href="/stories"><b>Stories</b></Nav.Link>
         <div className="sub_menu">
