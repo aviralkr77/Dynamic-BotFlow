@@ -1,6 +1,23 @@
 # Dynamic-BotFlow 
 
-##### Getting started
+Getting Started
+
+Deploy locally:
+
+### How To Use
+
+```bash
+npm install
+npm run dev
+```
+
+### Build
+
+```bash
+npm install
+npm run build
+```
+
 
 ## Stack
 - React
