@@ -3,18 +3,11 @@ import {
   Modal,
   Button,
   Form,
-  Dropdown,
   ListGroup,
   InputGroup,
   FormControl,
 } from "react-bootstrap";
 import { FaPlusCircle } from "react-icons/fa";
-import {
-  TiSortAlphabetically,
-  TiSortNumerically,
-  TiLocationOutline,
-} from "react-icons/ti";
-import { HiOutlineMail } from "react-icons/hi";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import { v4 as uuidv4 } from "uuid";
 import "./questionModal.scss";
@@ -32,22 +25,7 @@ function QuestionModal({
 }) {
   const [button, setButton] = useState([]);
   const [keyword, setKeyword] = useState([]);
-//   const [header, setHeader] = useState("Bot Response");
-//   const [title, setTitle] = useState("Response Title");
-//   const [label, setLabel] = useState("Edit Response");
-//   const [style, setStyle] = useState("QuestionModal");
   const [pHolder, setPHolder] = useState("ex: Welcome Message");
-
-//   const titleData = data;
-  useEffect(() => {
-    // if (type === "question") {
-    //   setHeader("Question");
-    //   setTitle("Question Title");
-    //   setLabel("Edit Question");
-    //   setStyle("questionModal");
-    //   setPHolder("ex: Question Title");
-    // }
-  }, []);
 
   const onChangeHandler = (e) => {
     const text = e.target.value;

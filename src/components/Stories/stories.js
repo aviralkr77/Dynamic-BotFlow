@@ -1,14 +1,15 @@
-import react, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import SideNav from "../SideNav/sidenav";
 import "./stories.scss";
 import { FaPlusCircle , FaRobot } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import image from './bg.jpg'
 import CreateBotModal from '../Modal/CreateBotModal/createBotModal'
+import Dialog from "../Modal/Dialog/dialog";
 
 
 const Stories = () => {
-  useEffect(() => {}, []);
+
 
   const [show, setShow] = useState(false);
 
@@ -17,6 +18,7 @@ const Stories = () => {
 
   return (
     <>
+    <Dialog/>
     <CreateBotModal onShowMod={show} onCloseMod={onClose} />
       <div className="container " style={{ backgroundImage:`url(${image})` }}>
         <div class="d-flex flex-row">

@@ -1,10 +1,8 @@
-import { Button } from "bootstrap";
 import { useState, useCallback } from "react";
 import { Handle, Position } from "react-flow-renderer";
 import "./inputNode.scss";
 import InputModal from "../../Modal/InputModal/inputModal";
 import {  FaPlusCircle, FaUserEdit} from "react-icons/fa";
-import { BsFillQuestionOctagonFill } from "react-icons/bs";
 const handleStyle = { left: 10 };
 
 

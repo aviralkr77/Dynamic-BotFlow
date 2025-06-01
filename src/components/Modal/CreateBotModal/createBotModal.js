@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 function CreateBotModal({onShowMod, onCloseMod, data}) {
  
   
-  const[header, setHeader] = useState('Create new story')
+  const[header, setHeader] = useState('Create a new story')
   const[title, setTitle] = useState('Story Title')
   const[desc,setdesc] = useState('Story Description')
   const[titleInput, setTiltleInput] = useState('')
@@ -39,20 +39,20 @@ function CreateBotModal({onShowMod, onCloseMod, data}) {
 
   return (
     <>
-    
       <Modal className="createBotModal" show={onShowMod} onHide={onCloseMod}>
-        <Modal.Header >
+        <Modal.Header>
           <Modal.Title>{header}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-             
               <Form.Control
                 type="text"
                 placeholder={title}
                 autoFocus
-                onChange={(e)=>{onChangeHandler(e)}}
+                onChange={(e) => {
+                  onChangeHandler(e);
+                }}
                 onKeyDown={handleEnter}
               />
             </Form.Group>
@@ -60,8 +60,12 @@ function CreateBotModal({onShowMod, onCloseMod, data}) {
               className="mb-3"
               controlId="exampleForm.ControlTextarea1"
             >
-           
-              <Form.Control as="textarea"  placeholder={desc} rows={2} autoFocus  />
+              <Form.Control
+                as="textarea"
+                placeholder={desc}
+                rows={2}
+                autoFocus
+              />
             </Form.Group>
           </Form>
         </Modal.Body>
@@ -70,7 +74,7 @@ function CreateBotModal({onShowMod, onCloseMod, data}) {
             Close
           </Button>
           <Button variant="primary" onClick={onClickHandler}>
-           Create
+            Create
           </Button>
         </Modal.Footer>
       </Modal>

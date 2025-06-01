@@ -1,9 +1,6 @@
-import { Button } from 'bootstrap';
 import { useCallback } from 'react';
 import { Handle, Position } from 'react-flow-renderer';
 import './fallbackNode.scss'
-import { MdHome } from "react-icons/md";
-const handleStyle = { left: 10 };
 
 function FallbackNode({ data }) {
   const onChange = useCallback((evt) => {
