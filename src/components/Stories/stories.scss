@@ -1,7 +1,6 @@
 .main_container {
    background-color: black;
-    min-height: 100vh;
-    height: 80rem;      // Ensures it covers at least the viewport height        // Ensures it covers the viewport width
+        // Ensures it covers at least the viewport height        // Ensures it covers the viewport width
     position: relative;     // Use relative unless you need absolute positioning
     color: #ff9d00;
     top: 0;
@@ -92,18 +91,22 @@
     top: 30rem !important;
     z-index: 8;
     border-radius: 5px;
+    height: fit-content;
+    background-color: black;
 }
 
 .btnCustom{
     position: relative;
-    top: 43rem;
+    top: 30rem;
     background: black;
-    border: #e67300 1px solid;
+    color: #e67300;
+    border: #e67300 2px double !important;
     height: 60px;
 }
 .btnCustom:hover{
     background: #e67300;
-    color: white;
-    border: #e67300 1px solid;
+    color: black;
+    font-weight: 1000;
+    border: #e67300 2px solid;
     
 }

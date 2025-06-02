@@ -3,7 +3,7 @@ import SideNav from "../SideNav/sidenav";
 import "./stories.scss";
 import { FaPlusCircle, FaRobot } from "react-icons/fa";
 import { IconContext } from "react-icons";
-import image from "./bg.jpg";
+import Badge from 'react-bootstrap/Badge';
 import CreateBotModal from "../Modal/CreateBotModal/createBotModal";
 import Dialog from "../Modal/Dialog/dialog";
 import Card from "react-bootstrap/Card";
@@ -67,14 +67,15 @@ function getRandomComments(count = 2) {
   }, [currentPage]);
 
   const [show, setShow] = useState(false);
+  const[isOpen, setIsOpen] = useState(true);
   const onShow = () => setShow(true);
   const onClose = () => setShow(false);
 
   return (
     <>
-      <Dialog />
+      <Dialog show={isOpen} onHide={()=>setIsOpen(false)}/>
       <CreateBotModal onShowMod={show} onCloseMod={onClose} />
-      <div className="main_container" style={{ backgroundImage:`url(${image})` }}>
+      <div className="main_container">
         <div className="d-flex flex-row">
           <div class="p-2">
             <SideNav></SideNav>
@@ -117,20 +118,21 @@ function getRandomComments(count = 2) {
             </div>{" "}
           </div>
         </div>
-        <CardGroup
-        >
+        
+        <CardGroup>
+              
            <Button className="btnCustom" onClick={()=>setCurrentPage(prev=> prev-1)}>&lt;</Button>
           {isLoading ? (
             <p>loading ...</p>
           ) : (
             users.map((user, index) => (
               <Card
-        style={{borderRadius: "5px", border:"3px solid #e67300"}} className="cardCustom" key={index}>
-                <Card.Img variant="top" src={user.picture} />
+        style={{borderRadius: "5px", border:"2px dashed #e67300"}} className="cardCustom" key={index}>
+                <Card.Img  style={{width: "45px", height:"45px",marginLeft:"1.2rem",marginTop:"1rem"}} variant="top" src={user.picture} />
                 <Card.Body style={{background: "black"}}>
-                  <Card.Title>{user.name}</Card.Title>
+                  <Card.Title>{user.name}<br/></Card.Title>
                   <Card.Text>
-                    <p>Added: {user.date}</p>
+                    <p><Badge> Stories </Badge> {user.date}</p>
                     <p>{getRandomComments()}</p>
                   </Card.Text>
                 </Card.Body>

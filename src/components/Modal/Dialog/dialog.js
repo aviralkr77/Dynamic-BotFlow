@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
+import './dialog.scss';
+export default function Dialog({ show, onHide }) {
+  console.log('Dialog component rendered with props:', show);
+  
 
-export default function Dialog() {
-  const [show, setShow] = useState(true);
   const [isLogin, setIsLogin] = useState(true); // Toggle between Login and Sign-Up
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -19,12 +19,11 @@ export default function Dialog() {
     } else {
       console.log('Sign-Up:', { name, email, password, confirmPassword });
     }
-    handleClose();
   };
 
   return (
     <>
-      <Modal show={show} onHide={handleClose} centered>
+      <Modal backdropClassName='bdCustom' dialogClassName='customDialog' show={show} onHide={onHide} centered>
         <Modal.Header closeButton>
           <Modal.Title>
             <Button

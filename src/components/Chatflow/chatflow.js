@@ -66,6 +66,7 @@ const Chatflow = () => {
   // Data instances
 
   const reactFlowWrapper = useRef(null);
+  const [colorMode, setColorMode] = useState('dark');
   const [nodes, setNodes, onNodesChange] = useNodesState([]);
   const [edges, setEdges, onEdgesChange] = useEdgesState([]);
   const [reactFlowInstance, setReactFlowInstance] = useState(null);
@@ -304,6 +305,7 @@ const Chatflow = () => {
       <EditModal onShow={show} onClose={onClose}></EditModal>
 
       <ReactFlow
+      colorMode={colorMode}
         nodes={nodes}
         edges={edges}
         onNodeClick={onClickElement}
@@ -321,6 +323,11 @@ const Chatflow = () => {
             <VscChromeClose onClick={onClickElementDelete} />
           </ControlButton>
         </Controls>
+        <Background
+          color="#e67300"
+          gap={25}
+          size={1}
+          style={{ background:"black"}}  />
         <MiniMap
           style={{ position: "absolute", left: "4vw", border: "0px" }}
           nodeColor={nodeColor}
@@ -328,13 +335,15 @@ const Chatflow = () => {
         ></MiniMap>
       </ReactFlow>
 
-      <Background color="#white" gap={16} />
+      
     </div>
   );
 };
 
-export default () => (
+const ChatflowWithProvider = () => (
   <ReactFlowProvider>
     <Chatflow />
   </ReactFlowProvider>
 );
+
+export default ChatflowWithProvider;

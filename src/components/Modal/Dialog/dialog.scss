@@ -1,0 +1,38 @@
+.customDialog {
+  .btn-close {
+    backdrop-filter: invert(1);
+    -webkit-backdrop-filter: invert(1);
+    margin-right: 0.2rem;
+  }
+  .modal-header {
+    background: black;
+    color: white;
+    border: #e67300 1px dashed !important;
+  }
+  .modal-body {
+    background: black;
+    color: white;
+    border: #e67300 1px dashed !important;
+  }
+  .btn-secondary {
+    background: black;
+    color: #e67300;
+    border: #e67300 1px dashed !important;
+    &:hover {
+      background-color: #e67300;
+      color: black;
+    }
+  }
+  .btn-primary {
+    background: #e67300;
+    color: black;
+    border: #e67300 1px dashed !important;
+    &:hover {
+      background-color: black;
+      color: #e67300;
+    }
+  }
+}
+.bdCustom {
+  background: #e67300;
+}
