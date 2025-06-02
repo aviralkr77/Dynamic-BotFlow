@@ -1,3 +1,26 @@
+.main_container {
+   background-color: black;
+    min-height: 100vh;
+    height: 80rem;      // Ensures it covers at least the viewport height        // Ensures it covers the viewport width
+    position: relative;     // Use relative unless you need absolute positioning
+    color: #ff9d00;
+    top: 0;
+    padding: 2rem 4rem;
+    
+    h3{
+        position: absolute;
+        top: 2.4rem;
+        left: 8rem;
+        color: white;
+        background-color:#372598;
+        padding: .5rem 1.5rem .5rem 1.5rem;
+        font-size: medium;
+        font-weight: 500;
+        border-radius:25rem;
+        box-shadow: rgba(1, 0, 0, 0.172) 0px 2px 8px 2px;
+    }
+    
+}
 .story{
     position: absolute;
     top: 6rem;
@@ -59,4 +82,28 @@
         }
     }
    
+}
+
+.cardCustom {
+    box-shadow: rgba(1, 0, 0, 0.172) 0px 2px 8px 2px;
+    position: relative !important;
+    left: 1.8rem !important;
+    margin-right: 4rem !important;
+    top: 30rem !important;
+    z-index: 8;
+    border-radius: 5px;
+}
+
+.btnCustom{
+    position: relative;
+    top: 43rem;
+    background: black;
+    border: #e67300 1px solid;
+    height: 60px;
+}
+.btnCustom:hover{
+    background: #e67300;
+    color: white;
+    border: #e67300 1px solid;
+    
 }
