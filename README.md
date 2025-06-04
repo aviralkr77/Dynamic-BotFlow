@@ -6,11 +6,6 @@ A modern, user-friendly note-taking web app built with **React**. It allows user
 
 👉 [Visit Deployed Site](https://your-deployed-site.vercel.app)
 
-## 📸 Screenshots
-
-<img src="screenshots/dashboard.png" width="100%" alt="Dashboard Screenshot" />
-<img src="screenshots/summarize.png" width="100%" alt="Summarizer Screenshot" />
-
 ---
 
 ## 🚀 Features
