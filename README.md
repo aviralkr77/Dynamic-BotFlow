@@ -1,34 +1,30 @@
-# 🧠 SuperNote-AI (Frontend)
+# Dynamic-BotFlow 
 
-A modern, user-friendly note-taking web app built with **React**. It allows users to create, edit, delete, tag, search, and **auto-summarize notes using AI** (OpenAI API or mock). Fully integrated with a secure Node.js backend and MongoDB for authentication and persistence.
+##### Getting started
 
-## 🔗 Live Demo
+## Stack
+- Reacta
+- Rasa 
+```
+USAGE- 
+- ADD a story from ALL stories section 
+- "Create a Bot"- Add title and Description
+- Click on Start and Enter the details/Intent in the node and Save changes before closing
+- Drag and add new node from " + " button 
+- Connect the Edges by dragging edge from the end of a node
+- After finishing the flow creation , Click on "SAVE "
+- Click "Publish " to Send/store flow Data   
+```
 
-👉 [Visit Deployed Site](https://your-deployed-site.vercel.app)
 
----
+## Add your files
 
-## 🚀 Features
+- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
+- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
 
-- 🔐 User Authentication (Register/Login with JWT)
-- 📝 Create, Read, Update, Delete Notes
-- 🏷️ Tag-based Filtering & Searching
-- 🤖 AI Note Summarization *(OpenAI API or mock)*
-- 🌙 Dark/Light Theme Toggle
-- 📱 Fully Responsive UI
-
----
-
-## 🛠️ Tech Stack
-
-| Frontend        | Backend        |
-|----------------|----------------|
-| React          | Node.js        |
-| React Router   | Express        |
-| Context API / Redux | MongoDB + Mongoose |
-| Axios          | JWT Auth       |
-| Tailwind CSS   | Bcrypt         |
-
----
-
-## 🧩 Folder Structure
+```
+cd existing_repo
+git remote add origin https://github.com/aviralkr77/Dynamic-BotFlow.git
+git branch -M main
+git push -uf origin main
+```
