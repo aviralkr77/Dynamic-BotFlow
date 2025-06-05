@@ -5,13 +5,16 @@ import { FaPlusCircle, FaRobot } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import Badge from 'react-bootstrap/Badge';
 import CreateBotModal from "../Modal/CreateBotModal/createBotModal";
-import Dialog from "../Modal/Dialog/dialog";
 import Card from "react-bootstrap/Card";
 import CardGroup from 'react-bootstrap/CardGroup';
 import axios from "axios";
 import Button from "react-bootstrap/Button";
+import { useSelector } from 'react-redux';
+
+
 
 const Stories = () => {
+  const user = useSelector(state => state.user); 
   const [users, setUsers] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -73,7 +76,7 @@ function getRandomComments(count = 2) {
 
   return (
     <>
-      <Dialog show={isOpen} onHide={()=>setIsOpen(false)}/>
+     
       <CreateBotModal onShowMod={show} onCloseMod={onClose} />
       <div className="main_container">
         <div className="d-flex flex-row">
